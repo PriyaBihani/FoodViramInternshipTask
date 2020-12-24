@@ -1,0 +1,25 @@
+{
+    "name": "FoodViramTask",
+    "author": "",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "config": "^3.3.3",
+        "express": "^4.17.1",
+        "express-jwt": "^6.0.0",
+        "express-validator": "^6.7.0",
+        "mongoose": "^5.11.8"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
